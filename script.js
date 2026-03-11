@@ -13,15 +13,14 @@ ballx = canvas.width / 2
 bally = canvas.height / 2
 c.beginPath()
 c.arc(ballx, bally, ballradius, 0, Math.PI*2)
-// c.strokeStyle = 'black'
 c.fillStyle = '#fbfaf5'
 c.stroke()
 c.fill()
 
 
 
-xspeed = ((Math.random()*5)+1.5) * (Math.random() < 0.5 ? -1 : 1)
-yspeed = ((Math.random()*5)+1.5) * (Math.random() < 0.5 ? -1 : 1)
+xspeed = ((Math.random()*5)+2) * (Math.random() < 0.5 ? -1 : 1)
+yspeed = ((Math.random()*5)+2) * (Math.random() < 0.5 ? -1 : 1)
 console.log(`xspeed: ${xspeed}`)
 console.log(`yspeed: ${yspeed}`)
 
